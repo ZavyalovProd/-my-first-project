@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red;
-}
+
 
 @font-face{
  font-family: "inter";
@@ -147,6 +145,10 @@ width: 360px;
     font-weight: bold;
 }
 
+.how-to{
+    margin-bottom: 40px;
+}
+
 .how-title{
     color:white;
 }
@@ -159,6 +161,7 @@ width: 360px;
 
 .containerUL{
     margin: 0;
+    list-style: none;
     padding: 0;
 }
 
@@ -173,7 +176,7 @@ width: 360px;
     border-radius: 30px;
     text-align: left;
     margin: 0;
-    background-color: gray;
+    background-color: #343434;
 }
 
 .card_theme_bright{
@@ -244,14 +247,12 @@ width: 360px;
     width: 110px;
 }
 
-footer{
-    border-top: 2px #FEE42A;
-}
-
 .footer{
     display: flex;
     padding: 10px;
+    margin: 20px;
     justify-content: space-between;
+    border-top: solid 2px #FEE42A;
 }
 
 h6 {
