@@ -119,11 +119,13 @@ width: 360px;
 
 .reasons{
  background-color: #FEE42A;
+ padding: 20px 0 20px 0;
 }
 
 .content-section__subtitle{
     font-family: "ebgramond", Arial, sans-serif;
     font-size: 28px; 
+    margin: 0 20px 20px 20px;
 }
 
 .content-section__introduction{
@@ -147,6 +149,7 @@ width: 360px;
 
 .how-to{
     margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 .how-title{
